@@ -1,0 +1,19 @@
+<table class="table table-striped">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>price</th>
+        <th>&nbsp;</th>
+    </tr>
+    <ng-container *ngFor="let item of productList | async">
+        <tr [style.color]="item.price > 500 ? 'red':'black'">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>
+                <button class="btn btn-danger mr-1" (click)="deleteRow(item.id)">delete</button>
+                <button class="btn btn-warnong" (click)="edit(item.id)">edit</button>
+            </td>
+        </tr>
+    </ng-container>
+</table>

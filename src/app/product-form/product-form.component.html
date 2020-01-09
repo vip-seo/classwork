@@ -1,0 +1,21 @@
+<form [formGroup]="myForm" (ngSubmit)="addProduct()">
+
+    <div class="form-group">
+        <label for="name">Product name</label>
+        <input type="text" class="form-control" id="name" formControlName="name">
+        <!-- <small class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+    </div>
+
+    <div class="form-group">
+        <label for="category">Category</label>
+        <input type="text" class="form-control" id="category" formControlName="category">
+    </div>
+
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="number" class="form-control" id="price" formControlName="price">
+    </div>
+    
+    <button (click)="formInfo()" class="btn btn-primary">Submit</button>
+
+</form>
