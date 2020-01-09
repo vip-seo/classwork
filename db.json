@@ -26,9 +26,15 @@
     },
     {
       "name": "tyut",
-      "price": 545464564546,
+      "price": 5,
       "category": "tyut",
       "id": 10
+    },
+    {
+      "name": "g",
+      "price": 34534,
+      "category": "ghjgh",
+      "id": 11
     }
   ]
 }
