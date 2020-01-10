@@ -20,20 +20,20 @@
     },
     {
       "name": "product 9",
-      "price": 888,
+      "price": 88820,
       "category": 3,
       "id": 9
     },
     {
-      "name": "tyut",
-      "price": 5,
-      "category": "tyut",
+      "name": "212",
+      "price": 1000,
+      "category": "lkj",
       "id": 10
     },
     {
-      "name": "g",
-      "price": 34534,
-      "category": "ghjgh",
+      "name": "tffy",
+      "price": 35334,
+      "category": "fyf",
       "id": 11
     }
   ]
